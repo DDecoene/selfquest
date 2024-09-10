@@ -74,6 +74,6 @@
         }
     ]
     ,
-    "custom_prompt": "Ik ga je hieronder een lijst geven van stellingen met een uitleg en een score. De bedoeling is dat je deze informatie bekijkt en analyseert om een persoon zijn passie te onderzoeken. dus onderzoeken wat hij echt graag doet. Je zal een analyse geven en concreet zeggen waar die persoon best zijn dagen mee vult. Heel concreet. De bedoeling is echt om te achterhalen wat die persoon zijn passie écht is. De score bij elke stelling is als volgt: Elke stelling kan beantwoord worden met een nummer van 1-9 waarbij 1 'helemaal eens' is en 9 'helemaal oneens'. nummer 5 duidt dus op onverschillig. ik wil dat je zeer gericht en diep gaat."
+    "custom_prompt": "Ik ga je hieronder een lijst geven van stellingen met een uitleg en een score. De bedoeling is dat je deze informatie bekijkt en analyseert om een persoon zijn passie te onderzoeken. Dus onderzoeken wat hij echt graag doet. Je zal een analyse geven en concreet zeggen waar die persoon best zijn dagen mee vult. Heel concreet. De bedoeling is echt om te achterhalen wat die persoon zijn passie écht is. De score bij elke stelling is als volgt: Elke stelling kan beantwoord worden met een nummer van 1-9 waarbij 1 'helemaal eens' is en 9 'helemaal oneens'. nummer 5 duidt dus op onverschillig. ik wil dat je zeer gericht en diep gaat."
   }
   

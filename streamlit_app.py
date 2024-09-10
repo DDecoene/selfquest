@@ -13,11 +13,26 @@ with open('config.json') as f:
 stellingen = config["stellingen"]
 custom_prompt = config["custom_prompt"]
 
+
 def send_to_chatgpt(data, prompt):
-    response = client.completions.create(model="gpt-4",
-    prompt=f"{prompt}\n\nHier zijn de resultaten van de persoonlijkheidsquiz:\n{json.dumps(data, indent=2)}\n\nKun je een inzicht geven in deze resultaten?",
-    max_tokens=150)
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[
+            {
+                "role": "system",
+                "content": prompt
+            },
+            {
+                "role": "user",
+                "content": data
+            }
+        ],
+        temperature=0.8,
+        max_tokens=64,
+        top_p=1
+    )
     return response.choices[0].text.strip()
+
 
 def main():
     # Session state initialisatie
@@ -29,7 +44,8 @@ def main():
     # Functie om de huidige stelling weer te geven
     def display_current_stelling(index):
         if index < len(stellingen):
-            st.write(f"**Stelling {index + 1}:** {stellingen[index]['stelling']}")
+            st.write(
+                f"**Stelling {index + 1}:** {stellingen[index]['stelling']}")
             st.write(f"*{stellingen[index]['uitleg']}*")
             score = st.slider(f"Beoordeel stelling {index + 1}", 1, 9, 5)
             if st.button("Verzend antwoord"):
@@ -60,6 +76,7 @@ def main():
 
     # Weergeven van de huidige stelling
     display_current_stelling(st.session_state.current_index)
+
 
 if __name__ == "__main__":
     main()
