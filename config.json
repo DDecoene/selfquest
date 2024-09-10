@@ -1,79 +1,37 @@
 {
     "stellingen" : [
-        {
-            "stelling": "Ik voel een sterke drive om complexe problemen op te lossen, zelfs als de oplossing me veel tijd en moeite kost.",
-            "uitleg": "Deze stelling gaat over je bereidheid en motivatie om met uitdagende problemen aan de slag te gaan. Sommige mensen vinden het oplossen van complexe problemen fascinerend en halen hier veel voldoening uit, zelfs als het veel tijd en energie kost."
-        },
-        {
-            "stelling": "Ik krijg energie van het werken in een team waarin ik ideeën kan uitwisselen en samenwerken aan projecten.",
-            "uitleg": "Deze stelling onderzoekt of je energie haalt uit samenwerking en het delen van ideeën met anderen. Sommige mensen floreren in een teamomgeving, waar ze inspiratie opdoen door interactie en gezamenlijke inspanningen."
-        },
-        {
-            "stelling": "Ik voel me het meest voldaan wanneer ik iets tastbaars creëer, zoals kunst, handwerk, of een fysiek product.",
-            "uitleg": "Deze stelling gaat over de voldoening die je haalt uit het creatieproces. Voor sommige mensen is het maken van iets tastbaars een krachtige bron van voldoening, omdat ze hun ideeën en inspanningen kunnen omzetten in iets concreets."
-        },
-        {
-            "stelling": "Ik heb een sterke behoefte om anderen te helpen en voel me vervuld wanneer ik iets kan bijdragen aan hun welzijn.",
-            "uitleg": "Deze stelling onderzoekt je motivatie om bij te dragen aan het welzijn van anderen. Voor sommige mensen is het helpen van anderen een belangrijke drijfveer die hen vervulling en betekenis geeft."
-        },
-        {
-            "stelling": "Ik raak geïnspireerd door de natuur en voel een sterke verbinding met de buitenwereld, vooral in natuurlijke omgevingen.",
-            "uitleg": "Deze stelling onderzoekt de mate waarin je inspiratie en voldoening haalt uit de natuur. Voor sommige mensen is het buiten zijn in de natuur een bron van rust, creativiteit, en verbondenheid."
-        },
-        {
-            "stelling": "Ik ben gefascineerd door technologie en hou ervan om te experimenteren met nieuwe tools, software, of apparaten.",
-            "uitleg": "Deze stelling gaat over je interesse in technologie en je nieuwsgierigheid naar nieuwe ontwikkelingen. Sommige mensen vinden het leuk om zich onder te dompelen in de nieuwste technologische trends en ermee te experimenteren."
-        },
-        {
-            "stelling": "Ik verlies mezelf vaak in creatieve schrijfprocessen, zoals het bedenken van verhalen, poëzie, of andere vormen van literatuur.",
-            "uitleg": "Deze stelling onderzoekt of schrijven een passie van je is en in welke mate je jezelf verliest in het creatieve schrijfproces. Voor sommigen is schrijven een manier om hun gedachten, emoties, en verbeelding tot uiting te brengen."
-        },
-        {
-            "stelling": "Ik geniet van het analyseren van cijfers en data om patronen te ontdekken en geïnformeerde beslissingen te nemen.",
-            "uitleg": "Deze stelling richt zich op je interesse in het werken met cijfers en data. Sommige mensen vinden het analyseren van gegevens boeiend, omdat het hen helpt om diepgaand inzicht te krijgen en gefundeerde beslissingen te nemen."
-        },
-        {
-            "stelling": "Ik ben gedreven door de wens om nieuwe plekken te ontdekken, te reizen, en verschillende culturen te ervaren.",
-            "uitleg": "Deze stelling onderzoekt je verlangen om de wereld te verkennen en nieuwe ervaringen op te doen door te reizen. Voor veel mensen is reizen een manier om hun horizon te verbreden en geïnspireerd te raken door diverse culturen."
-        },
-        {
-            "stelling": "Ik vind het belangrijk om mijn ideeën en opvattingen te delen en anderen te inspireren door mijn visie of verhalen.",
-            "uitleg": "Deze stelling richt zich op je behoefte om je ideeën en visies met anderen te delen en hen te inspireren. Voor sommigen is het uitdragen van hun overtuigingen en het beïnvloeden van anderen een belangrijke bron van voldoening."
-        },
-        {
-            "stelling": "Ik voel me aangetrokken tot activiteiten die fysieke uitdaging en uithoudingsvermogen vereisen, zoals sport of lange wandelingen.",
-            "uitleg": "Deze stelling onderzoekt je interesse in activiteiten die fysieke inspanning en uithoudingsvermogen vereisen. Voor sommige mensen is fysieke uitdaging een belangrijk onderdeel van hun leven."
-        },
-        {
-            "stelling": "Ik voel me aangetrokken tot het idee om mijn eigen bedrijf of project te starten en iets van de grond af op te bouwen.",
-            "uitleg": "Deze stelling onderzoekt je interesse in ondernemerschap en het creëren van iets vanuit het niets. Sommige mensen voelen een sterke drang om hun eigen pad te volgen en ideeën te ontwikkelen."
-        },
-        {
-            "stelling": "Ik haal veel voldoening uit het plannen en organiseren van evenementen of activiteiten, van de kleinste details tot het grotere geheel.",
-            "uitleg": "Deze stelling gaat over je interesse en plezier in het plannen en organiseren van evenementen of activiteiten. Sommige mensen vinden het leuk om te zorgen dat alles op rolletjes loopt, van het uitwerken van de logistiek tot het coördineren van de verschillende elementen."
-        },
-        {
-            "stelling": "Ik voel me aangetrokken tot onderwerpen zoals filosofie, psychologie, of andere disciplines die zich richten op het begrijpen van de menselijke natuur.",
-            "uitleg": "Deze stelling onderzoekt je interesse in het bestuderen van diepgaande vragen over het menselijk bestaan en de menselijke geest. Voor sommige mensen is het begrijpen van de menselijke natuur via disciplines zoals filosofie en psychologie een boeiende bezigheid."
-        },
-        {
-            "stelling": "Ik vind het uitdagend en leuk om nieuwe talen te leren en de cultuur die ermee gepaard gaat te verkennen.",
-            "uitleg": "Deze stelling gaat over je interesse in taalstudie en culturele verkenning. Voor sommige mensen is het leren van nieuwe talen niet alleen een intellectuele uitdaging, maar ook een manier om zich te verbinden met verschillende culturen."
-        },
-        {
-            "stelling": "Ik voel me aangetrokken tot de kunsten, zoals muziek, schilderkunst, of theater, en kan mezelf verliezen in creatieve expressie.",
-            "uitleg": "Deze stelling richt zich op je interesse in de kunsten en creatieve expressie. Voor sommige mensen is kunst een essentieel onderdeel van hun leven, of het nu gaat om het maken van kunst of het genieten van kunstwerken."
-        },
-        {
-            "stelling": "Ik geniet ervan om mijn gedachten en ideeën te structureren en te documenteren, zoals door middel van journaling of bloggen.",
-            "uitleg": "Deze stelling onderzoekt of je plezier haalt uit het organiseren en vastleggen van je gedachten en ideeën. Voor sommige mensen is het schrijven in een dagboek of bloggen een manier om hun gedachten te ordenen en reflecties vast te leggen."
-        },
-        {
-            "stelling": "Ik voel me sterk verbonden met geschiedenis en vind het fascinerend om te leren over verschillende tijdperken en hun invloed op de wereld van vandaag.",
-            "uitleg": "Deze stelling gaat over je interesse in geschiedenis en het begrijpen van het verleden. Voor sommige mensen is het bestuderen van historische gebeurtenissen en tijdperken een manier om het heden beter te begrijpen."
-        }
-    ]
+        {"stelling": "Ik krijg energie van het werken in een team waarin ik ideeën kan uitwisselen en samenwerken aan projecten.", "uitleg": "Werk in een team kan motiverend zijn en nieuwe ideeën stimuleren."},
+        {"stelling": "Ik voel me het meest voldaan wanneer ik iets tastbaars creëer, zoals kunst, handwerk, of een fysiek product.", "uitleg": "Sommige mensen vinden voldoening in het creëren van tastbare producten die ze kunnen zien en aanraken."},
+        {"stelling": "Ik heb een sterke behoefte om anderen te helpen en voel me vervuld wanneer ik iets kan bijdragen aan hun welzijn.", "uitleg": "Hulpverlening en het bijdragen aan het welzijn van anderen kunnen een grote bron van voldoening zijn."},
+        {"stelling": "Ik ben gefascineerd door technologie en hou ervan om te experimenteren met nieuwe tools, software, of apparaten.", "uitleg": "Technologie en innovatie kunnen voor sommigen een belangrijke bron van motivatie en plezier zijn."},
+        {"stelling": "Ik geniet van het analyseren van cijfers en data om patronen te ontdekken en geïnformeerde beslissingen te nemen.", "uitleg": "Data-analyse en het ontdekken van patronen kunnen stimulerend zijn voor degenen die van cijfermatig denken houden."},
+        {"stelling": "Ik ben gedreven door de wens om nieuwe plekken te ontdekken, te reizen, en verschillende culturen te ervaren.", "uitleg": "Reizen en het ontdekken van nieuwe culturen kunnen belangrijk zijn voor mensen die nieuwsgierig zijn naar de wereld."},
+        {"stelling": "Ik vind het belangrijk om mijn ideeën en opvattingen te delen en anderen te inspireren door mijn visie of verhalen.", "uitleg": "Het delen van persoonlijke ideeën en het inspireren van anderen kan een belangrijke drijfveer zijn voor sommigen."},
+        {"stelling": "Ik voel me aangetrokken tot activiteiten die fysieke uitdaging en uithoudingsvermogen vereisen, zoals sport of lange wandelingen.", "uitleg": "Fysieke uitdagingen en uithoudingsvermogen kunnen bevredigend zijn voor mensen die van actieve bezigheden houden."},
+        {"stelling": "Ik voel me aangetrokken tot het idee om mijn eigen bedrijf of project te starten en iets van de grond af op te bouwen.", "uitleg": "Ondernemerschap en het bouwen van iets van de grond af kunnen motiverend zijn voor mensen met een passie voor innovatie en initiatief."},
+        {"stelling": "Ik haal veel voldoening uit het plannen en organiseren van evenementen of activiteiten, van de kleinste details tot het grotere geheel.", "uitleg": "Het organiseren en plannen van evenementen kan voldoening geven door de complexiteit en de impact van een goed georganiseerde activiteit."},
+        {"stelling": "Ik voel me aangetrokken tot onderwerpen zoals filosofie, psychologie, of andere disciplines die zich richten op het begrijpen van de menselijke natuur.", "uitleg": "Studie en reflectie over de menselijke natuur kunnen aantrekkelijk zijn voor mensen die geïnteresseerd zijn in diepgaande, intellectuele verkenning."},
+        {"stelling": "Ik voel me aangetrokken tot de kunsten, zoals muziek, schilderkunst, of theater, en kan mezelf verliezen in creatieve expressie.", "uitleg": "Creatieve expressie en kunst kunnen een belangrijke rol spelen in het leven van mensen die zich artistiek aangetrokken voelen."},
+        {"stelling": "Ik geniet ervan om mijn gedachten en ideeën te structureren en te documenteren, zoals door middel van journaling of bloggen.", "uitleg": "Structureren en documenteren van gedachten kan bevredigend zijn voor mensen die van ordening en schriftelijke uitdrukking houden."},
+        {"stelling": "Ik voel me sterk verbonden met geschiedenis en vind het fascinerend om te leren over verschillende tijdperken en hun invloed op de wereld van vandaag.", "uitleg": "Geschiedenis en het begrijpen van historische invloeden kunnen interessant zijn voor mensen die gefascineerd zijn door het verleden."},
+        {"stelling": "Ik haal veel voldoening uit het ontwikkelen van vaardigheden door middel van voortdurende training en oefening, zelfs als het proces lang en veeleisend is.", "uitleg": "Langdurige training en oefening kunnen belangrijk zijn voor mensen die voldoening halen uit het verbeteren en ontwikkelen van vaardigheden."},
+        {"stelling": "Ik vind het boeiend om sociale dynamieken en groepsprocessen te observeren en te begrijpen hoe mensen binnen een groep functioneren.", "uitleg": "Het observeren en begrijpen van sociale dynamieken kan stimulerend zijn voor mensen die geïnteresseerd zijn in sociale interacties en groepsgedrag."},
+        {"stelling": "Ik krijg veel voldoening uit het oplossen van complexe problemen door middel van creatief en innovatief denken.", "uitleg": "Creatief en innovatief denken om complexe problemen op te lossen kan een belangrijke bron van voldoening zijn voor probleemoplossers."},
+        {"stelling": "Ik voel me sterk gemotiveerd om bij te dragen aan projecten die een tastbare verbetering teweegbrengen in de levens van individuen of gemeenschappen.", "uitleg": "Bijdragen aan tastbare verbeteringen in levens kan zeer motiverend zijn voor mensen die waarde hechten aan impact en concrete resultaten."},
+        {"stelling": "Ik vind het belangrijk om mijn eigen unieke visie en ideeën uit te drukken, zelfs als ze afwijken van de gangbare normen.", "uitleg": "Unieke expressie en het volgen van je eigen visie kunnen belangrijk zijn voor mensen die waarde hechten aan individualiteit en creativiteit."},
+        {"stelling": "Ik voel me sterk gemotiveerd om betrokken te zijn bij activiteiten die een directe persoonlijke of professionele uitdaging bieden.", "uitleg": "Persoonlijke of professionele uitdagingen kunnen motiverend zijn voor mensen die van uitdagende situaties houden."},
+        {"stelling": "Ik ben gepassioneerd over het ontwikkelen van nieuwe concepten en ideeën die bestaande methoden of producten verbeteren.", "uitleg": "Het ontwikkelen van nieuwe concepten en verbeteren van bestaande methoden kan aantrekkelijk zijn voor mensen met een passie voor innovatie."},
+        {"stelling": "Ik haal veel voldoening uit het werken aan projecten die een persoonlijke betekenis voor mij hebben, zelfs als ze weinig extern erkend worden.", "uitleg": "Persoonlijke betekenis en voldoening uit projecten, ongeacht externe erkenning, kunnen belangrijk zijn voor mensen die waarde hechten aan persoonlijke betrokkenheid."},
+        {"stelling": "Ik voel me aangetrokken tot het creëren van en deelnemen aan netwerken en gemeenschappen die een gedeelde passie of interesse hebben.", "uitleg": "Deel uitmaken van netwerken en gemeenschappen met gedeelde interesses kan waardevol zijn voor mensen die van sociale en professionele netwerken houden."},
+        {"stelling": "Ik voel me sterk aangetrokken tot het uitvoeren van taken die een zekere mate van risico of onzekerheid met zich meebrengen, omdat ze spannender en uitdagender zijn.", "uitleg": "Risico en onzekerheid kunnen de aantrekkingskracht van taken vergroten voor mensen die van spannende en uitdagende situaties houden."},
+        {"stelling": "Ik vind het waardevol om betrokken te zijn bij projecten die bijdragen aan de vooruitgang en ontwikkeling van een specifieke industrie of vakgebied.", "uitleg": "Bijdragen aan de vooruitgang van een industrie of vakgebied kan motiverend zijn voor mensen die zich willen inzetten voor sectorale ontwikkeling."},
+        {"stelling": "Ik haal veel voldoening uit het ontwikkelen en uitvoeren van strategieën die gericht zijn op het behalen van langetermijndoelen.", "uitleg": "Langetermijnstrategieën en doelen kunnen bevredigend zijn voor mensen die houden van strategisch denken en planning."},
+        {"stelling": "Ik voel me aangetrokken tot het ontwikkelen van en experimenteren met nieuwe methoden of benaderingen om bestaande processen te verbeteren.", "uitleg": "Het ontwikkelen en testen van nieuwe methoden kan stimulerend zijn voor mensen die van innovatie en procesverbetering houden."},
+        {"stelling": "Ik voel me gemotiveerd door de mogelijkheid om anderen te onderwijzen of te coachen en hen te helpen groeien in hun vaardigheden en kennis.", "uitleg": "Onderwijs en coaching kunnen belangrijk zijn voor mensen die voldoening halen uit het helpen van anderen bij hun ontwikkeling."},
+        {"stelling": "Ik voel me aangetrokken tot het werken met complexe data en statistieken om trends en patronen te ontdekken.", "uitleg": "Werken met data en statistieken kan aantrekkelijk zijn voor mensen die geïnteresseerd zijn in analyse en het ontdekken van trends."},
+        {"stelling": "Ik vind het belangrijk om op de hoogte te blijven van de nieuwste trends en ontwikkelingen in mijn vakgebied om mijn kennis en vaardigheden te blijven verbeteren.", "uitleg": "Het bijhouden van trends en ontwikkelingen kan cruciaal zijn voor mensen die continu hun kennis willen verbeteren en relevant willen blijven."},
+        {"stelling": "Ik voel me sterk gemotiveerd door de mogelijkheid om een impact te maken op de levens van mensen door middel van mijn werk, zelfs als dit veel persoonlijke inzet vereist.", "uitleg": "Impact maken op de levens van anderen, zelfs met veel persoonlijke inzet, kan een sterke motivator zijn voor mensen die waarde hechten aan significante resultaten."}
+    ]    
     ,
     "custom_prompt": "Ik ga je hieronder een lijst geven van stellingen met een uitleg en een score. De bedoeling is dat je deze informatie bekijkt en analyseert om een persoon zijn passie te onderzoeken. Dus onderzoeken wat hij echt graag doet. Je zal een analyse geven en concreet zeggen waar die persoon best zijn dagen mee vult. Heel concreet. De bedoeling is echt om te achterhalen wat die persoon zijn passie écht is. De score bij elke stelling is als volgt: Elke stelling kan beantwoord worden met een nummer van 1-9 waarbij 1 'helemaal eens' is en 9 'helemaal oneens'. nummer 5 duidt dus op onverschillig. ik wil dat je zeer gericht en diep gaat."
   }
-  
