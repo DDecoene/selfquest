@@ -1,9 +1,10 @@
 import streamlit as st
 import json
-import openai
+from openai import OpenAI
+
+client = OpenAI(api_key=st.secrets["openai"]["api_key"])
 
 # Haal de API-sleutel uit de Streamlit secrets
-openai.api_key = st.secrets["openai"]["api_key"]
 
 # Laad stellingen en prompt uit JSON-bestand
 with open('config.json') as f:
@@ -13,11 +14,9 @@ stellingen = config["stellingen"]
 custom_prompt = config["custom_prompt"]
 
 def send_to_chatgpt(data, prompt):
-    response = openai.Completion.create(
-        model="gpt-4",
-        prompt=f"{prompt}\n\nHier zijn de resultaten van de persoonlijkheidsquiz:\n{json.dumps(data, indent=2)}\n\nKun je een inzicht geven in deze resultaten?",
-        max_tokens=150
-    )
+    response = client.completions.create(model="gpt-4",
+    prompt=f"{prompt}\n\nHier zijn de resultaten van de persoonlijkheidsquiz:\n{json.dumps(data, indent=2)}\n\nKun je een inzicht geven in deze resultaten?",
+    max_tokens=150)
     return response.choices[0].text.strip()
 
 def main():
@@ -38,7 +37,7 @@ def main():
                 st.session_state.current_index += 1
         else:
             st.write("Alle stellingen zijn voltooid. Bedankt voor je deelname!")
-            
+
             # Maak het JSON-bestand voor ChatGPT
             results_for_chatgpt = [
                 {
@@ -48,12 +47,12 @@ def main():
                 }
                 for i in range(len(stellingen))
             ]
-            
+
             # Verstuur resultaten naar ChatGPT met een aangepaste prompt
             response_text = send_to_chatgpt(results_for_chatgpt, custom_prompt)
             st.write("Inzicht van ChatGPT:")
             st.write(response_text)
-            
+
             # Sla de scores op als JSON bestand
             with open('results.json', 'w') as f:
                 json.dump(results_for_chatgpt, f, indent=2)
