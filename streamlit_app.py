@@ -15,23 +15,28 @@ custom_prompt = config["custom_prompt"]
 
 
 def send_to_chatgpt(data, prompt):
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {
-                "role": "system",
-                "content": prompt
-            },
-            {
-                "role": "user",
-                "content": data
-            }
-        ],
-        temperature=0.8,
-        max_tokens=64,
-        top_p=1
-    )
-    return response.choices[0].text.strip()
+    try:
+        
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {
+                    "role": "system",
+                    "content": prompt
+                },
+                {
+                    "role": "user",
+                    "content": data
+                }
+            ],
+            temperature=0.8,
+            max_tokens=64,
+            top_p=1
+        )
+        return response.choices[0].text.strip()
+    except Exception as e:
+        st.error(f"Error occurred: {e}")
+        return "Chatgpt communication failed"
 
 
 def main():
@@ -72,7 +77,7 @@ def main():
             # Sla de scores op als JSON bestand
             with open('results.json', 'w') as f:
                 json.dump(results_for_chatgpt, f, indent=2)
-            st.write("De resultaten zijn opgeslagen en verzonden naar ChatGPT.")
+            st.write("Hopelijk heb je hier wat aan.")
 
     # Weergeven van de huidige stelling
     display_current_stelling(st.session_state.current_index)
