@@ -1,4 +1,16 @@
 {
+    "choices":[
+        "Helemaal eens",
+        "Overwegend eens",
+        "Grotendeels eens",
+        "Enigszins eens",
+        "Neutraal",
+        "Enigszins oneens",
+        "Grotendeels oneens",
+        "Overwegend oneens",
+        "Helemaal oneens"
+    ],
+    "default_choice":"Neutraal",
     "stellingen" : [
         {"stelling": "Ik krijg energie van het werken in een team waarin ik ideeën kan uitwisselen en samenwerken aan projecten.", "uitleg": "Werk in een team kan motiverend zijn en nieuwe ideeën stimuleren."},
         {"stelling": "Ik voel me het meest voldaan wanneer ik iets tastbaars creëer, zoals kunst, handwerk, of een fysiek product.", "uitleg": "Sommige mensen vinden voldoening in het creëren van tastbare producten die ze kunnen zien en aanraken."},
@@ -33,5 +45,5 @@
         {"stelling": "Ik voel me sterk gemotiveerd door de mogelijkheid om een impact te maken op de levens van mensen door middel van mijn werk, zelfs als dit veel persoonlijke inzet vereist.", "uitleg": "Impact maken op de levens van anderen, zelfs met veel persoonlijke inzet, kan een sterke motivator zijn voor mensen die waarde hechten aan significante resultaten."}
     ]    
     ,
-    "custom_prompt": "Ik ga je hieronder een lijst geven van stellingen met een uitleg en een score. De bedoeling is dat je deze informatie bekijkt en analyseert om een persoon zijn passie te onderzoeken. Dus onderzoeken wat hij echt graag doet. Je zal een analyse geven en concreet zeggen waar die persoon best zijn dagen mee vult. Heel concreet. De bedoeling is echt om te achterhalen wat die persoon zijn passie écht is. De score bij elke stelling is als volgt: Elke stelling kan beantwoord worden met een nummer van 1-9 waarbij 1 'helemaal eens' is en 9 'helemaal oneens'. nummer 5 duidt dus op onverschillig. ik wil dat je zeer gericht en diep gaat."
+    "custom_prompt": "Ik ga je hieronder een lijst geven van stellingen met een uitleg en een score. De bedoeling is dat je deze informatie bekijkt en analyseert om een persoon zijn passie te onderzoeken. Dus onderzoeken wat hij echt graag doet. Je zal een analyse geven en concreet zeggen waar die persoon best zijn dagen mee vult. Heel concreet. De bedoeling is echt om te achterhalen wat die persoon zijn passie écht is. De score bij elke stelling is als volgt: Elke stelling kan beantwoord worden met een mate waarin de persoon het eens of oneens is met de stelling. ik wil dat je zeer gericht en diep gaat."
   }

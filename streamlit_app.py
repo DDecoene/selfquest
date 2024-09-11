@@ -12,11 +12,13 @@ with open('config.json') as f:
 
 stellingen = config["stellingen"]
 custom_prompt = config["custom_prompt"]
+choices = config["choices"]
+default_choice = config["default_choice"]
 
 
 def send_to_chatgpt(data, prompt):
     try:
-        
+
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
@@ -50,9 +52,10 @@ def main():
     def display_current_stelling(index):
         if index < len(stellingen):
             st.write(
-                f"**Stelling {index + 1}:** {stellingen[index]['stelling']}")
+                f"**Stelling {index + 1} van {len(stellingen)}:** {stellingen[index]['stelling']}")
             st.write(f"*{stellingen[index]['uitleg']}*")
-            score = st.slider(f"Beoordeel stelling {index + 1}", 1, 9, 5)
+            score = st.select_slider(
+                f"Beoordeel stelling {index + 1}", options=choices, value=default_choice)
             if st.button("Verzend antwoord"):
                 st.session_state.scores[index] = score
                 st.session_state.current_index += 1
