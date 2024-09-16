@@ -2,89 +2,94 @@ import streamlit as st
 import json
 from openai import OpenAI
 
-client = OpenAI(api_key=st.secrets["openai"]["api_key"])
+# Ask the user to enter their own API key
+api_key = st.text_input("Enter your OpenAI API key:", type="password")
 
-# Haal de API-sleutel uit de Streamlit secrets
+# Check if debug mode is enabled
+debug = False
+if "debug" in st.secrets["general"]:
+    debug = st.secrets["general"]["debug"]
 
-# Laad stellingen en prompt uit JSON-bestand
-with open('config.json') as f:
-    config = json.load(f)
+if api_key:
+    client = OpenAI(api_key=api_key)
 
-stellingen = config["stellingen"]
-custom_prompt = config["custom_prompt"]
-choices = config["choices"]
-default_choice = config["default_choice"]
+    # Load statements and prompt from JSON file
+    with open('config.json') as f:
+        config = json.load(f)
 
+    statements = config["statements"]
+    custom_prompt = config["custom_prompt"]
+    choices = config["choices"]
+    default_choice = config["default_choice"]
 
-def send_to_chatgpt(data, prompt):
-    try:
+    def send_to_chatgpt(data, prompt):
+        try:
+            response = client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {
+                        "role": "system",
+                        "content": prompt
+                    },
+                    {
+                        "role": "user",
+                        "content": data
+                    }
+                ],
+                temperature=0.8,
+                max_tokens=64,
+                top_p=1
+            )
+            return response.choices[0].text.strip()
+        except Exception as e:
+            st.error(f"Error occurred: {e}")
+            return "ChatGPT communication failed"
 
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {
-                    "role": "system",
-                    "content": prompt
-                },
-                {
-                    "role": "user",
-                    "content": data
-                }
-            ],
-            temperature=0.8,
-            max_tokens=64,
-            top_p=1
-        )
-        return response.choices[0].text.strip()
-    except Exception as e:
-        st.error(f"Error occurred: {e}")
-        return "Chatgpt communication failed"
+    def main():
+        # Session state initialization
+        if 'current_index' not in st.session_state:
+            st.session_state.current_index = 0
+        if 'scores' not in st.session_state:
+            st.session_state.scores = {}
 
+        # Function to display the current statement
+        def display_current_statement(index):
+            if index < len(statements):
+                st.write(
+                    f"**Statement {index + 1} of {len(statements)}:** {statements[index]['statement']}")
+                st.write(f"*{statements[index]['explanation']}*")
+                score = st.select_slider(
+                    f"Rate statement {index + 1}", options=choices, value=default_choice)
+                if st.button("Submit answer"):
+                    st.session_state.scores[index] = score
+                    st.session_state.current_index += 1
+            else:
+                st.write("All statements are completed. Thank you for your participation!")
 
-def main():
-    # Session state initialisatie
-    if 'current_index' not in st.session_state:
-        st.session_state.current_index = 0
-    if 'scores' not in st.session_state:
-        st.session_state.scores = {}
+                # Create the JSON file for ChatGPT
+                results_for_chatgpt = [
+                    {
+                        "statement": statements[i]["statement"],
+                        "explanation": statements[i]["explanation"],
+                        "score": st.session_state.scores[i]
+                    }
+                    for i in range(len(statements))
+                ]
 
-    # Functie om de huidige stelling weer te geven
-    def display_current_stelling(index):
-        if index < len(stellingen):
-            st.write(
-                f"**Stelling {index + 1} van {len(stellingen)}:** {stellingen[index]['stelling']}")
-            st.write(f"*{stellingen[index]['uitleg']}*")
-            score = st.select_slider(
-                f"Beoordeel stelling {index + 1}", options=choices, value=default_choice)
-            if st.button("Verzend antwoord"):
-                st.session_state.scores[index] = score
-                st.session_state.current_index += 1
-        else:
-            st.write("Alle stellingen zijn voltooid. Bedankt voor je deelname!")
+                # Send results to ChatGPT with a custom prompt
+                response_text = send_to_chatgpt(results_for_chatgpt, custom_prompt)
+                st.write("Insight from ChatGPT:")
+                st.write(response_text)
 
-            # Maak het JSON-bestand voor ChatGPT
-            results_for_chatgpt = [
-                {
-                    "stelling": stellingen[i]["stelling"],
-                    "uitleg": stellingen[i]["uitleg"],
-                    "score": st.session_state.scores[i]
-                }
-                for i in range(len(stellingen))
-            ]
+                # Save scores only if debug mode is enabled
+                if debug:
+                    with open('results.json', 'w') as f:
+                        json.dump(results_for_chatgpt, f, indent=2)
 
-            # Verstuur resultaten naar ChatGPT met een aangepaste prompt
-            response_text = send_to_chatgpt(results_for_chatgpt, custom_prompt)
-            st.write("Inzicht van ChatGPT:")
-            st.write(response_text)
+        # Display the current statement
+        display_current_statement(st.session_state.current_index)
 
-            # Sla de scores op als JSON bestand
-            with open('results.json', 'w') as f:
-                json.dump(results_for_chatgpt, f, indent=2)
-            st.write("Hopelijk heb je hier wat aan.")
-
-    # Weergeven van de huidige stelling
-    display_current_stelling(st.session_state.current_index)
-
-
-if __name__ == "__main__":
-    main()
+    if __name__ == "__main__":
+        main()
+else:
+    st.warning("Please enter your OpenAI API key to continue.")

@@ -1,49 +1,141 @@
 {
-    "choices":[
-        "Helemaal eens",
-        "Overwegend eens",
-        "Grotendeels eens",
-        "Enigszins eens",
-        "Neutraal",
-        "Enigszins oneens",
-        "Grotendeels oneens",
-        "Overwegend oneens",
-        "Helemaal oneens"
+    "choices": [
+        "Strongly agree",
+        "Mostly agree",
+        "Largely agree",
+        "Somewhat agree",
+        "Neutral",
+        "Somewhat disagree",
+        "Largely disagree",
+        "Mostly disagree",
+        "Strongly disagree"
     ],
-    "default_choice":"Neutraal",
-    "stellingen" : [
-        {"stelling": "Ik krijg energie van het werken in een team waarin ik ideeën kan uitwisselen en samenwerken aan projecten.", "uitleg": "Werk in een team kan motiverend zijn en nieuwe ideeën stimuleren."},
-        {"stelling": "Ik voel me het meest voldaan wanneer ik iets tastbaars creëer, zoals kunst, handwerk, of een fysiek product.", "uitleg": "Sommige mensen vinden voldoening in het creëren van tastbare producten die ze kunnen zien en aanraken."},
-        {"stelling": "Ik heb een sterke behoefte om anderen te helpen en voel me vervuld wanneer ik iets kan bijdragen aan hun welzijn.", "uitleg": "Hulpverlening en het bijdragen aan het welzijn van anderen kunnen een grote bron van voldoening zijn."},
-        {"stelling": "Ik ben gefascineerd door technologie en hou ervan om te experimenteren met nieuwe tools, software, of apparaten.", "uitleg": "Technologie en innovatie kunnen voor sommigen een belangrijke bron van motivatie en plezier zijn."},
-        {"stelling": "Ik geniet van het analyseren van cijfers en data om patronen te ontdekken en geïnformeerde beslissingen te nemen.", "uitleg": "Data-analyse en het ontdekken van patronen kunnen stimulerend zijn voor degenen die van cijfermatig denken houden."},
-        {"stelling": "Ik ben gedreven door de wens om nieuwe plekken te ontdekken, te reizen, en verschillende culturen te ervaren.", "uitleg": "Reizen en het ontdekken van nieuwe culturen kunnen belangrijk zijn voor mensen die nieuwsgierig zijn naar de wereld."},
-        {"stelling": "Ik vind het belangrijk om mijn ideeën en opvattingen te delen en anderen te inspireren door mijn visie of verhalen.", "uitleg": "Het delen van persoonlijke ideeën en het inspireren van anderen kan een belangrijke drijfveer zijn voor sommigen."},
-        {"stelling": "Ik voel me aangetrokken tot activiteiten die fysieke uitdaging en uithoudingsvermogen vereisen, zoals sport of lange wandelingen.", "uitleg": "Fysieke uitdagingen en uithoudingsvermogen kunnen bevredigend zijn voor mensen die van actieve bezigheden houden."},
-        {"stelling": "Ik voel me aangetrokken tot het idee om mijn eigen bedrijf of project te starten en iets van de grond af op te bouwen.", "uitleg": "Ondernemerschap en het bouwen van iets van de grond af kunnen motiverend zijn voor mensen met een passie voor innovatie en initiatief."},
-        {"stelling": "Ik haal veel voldoening uit het plannen en organiseren van evenementen of activiteiten, van de kleinste details tot het grotere geheel.", "uitleg": "Het organiseren en plannen van evenementen kan voldoening geven door de complexiteit en de impact van een goed georganiseerde activiteit."},
-        {"stelling": "Ik voel me aangetrokken tot onderwerpen zoals filosofie, psychologie, of andere disciplines die zich richten op het begrijpen van de menselijke natuur.", "uitleg": "Studie en reflectie over de menselijke natuur kunnen aantrekkelijk zijn voor mensen die geïnteresseerd zijn in diepgaande, intellectuele verkenning."},
-        {"stelling": "Ik voel me aangetrokken tot de kunsten, zoals muziek, schilderkunst, of theater, en kan mezelf verliezen in creatieve expressie.", "uitleg": "Creatieve expressie en kunst kunnen een belangrijke rol spelen in het leven van mensen die zich artistiek aangetrokken voelen."},
-        {"stelling": "Ik geniet ervan om mijn gedachten en ideeën te structureren en te documenteren, zoals door middel van journaling of bloggen.", "uitleg": "Structureren en documenteren van gedachten kan bevredigend zijn voor mensen die van ordening en schriftelijke uitdrukking houden."},
-        {"stelling": "Ik voel me sterk verbonden met geschiedenis en vind het fascinerend om te leren over verschillende tijdperken en hun invloed op de wereld van vandaag.", "uitleg": "Geschiedenis en het begrijpen van historische invloeden kunnen interessant zijn voor mensen die gefascineerd zijn door het verleden."},
-        {"stelling": "Ik haal veel voldoening uit het ontwikkelen van vaardigheden door middel van voortdurende training en oefening, zelfs als het proces lang en veeleisend is.", "uitleg": "Langdurige training en oefening kunnen belangrijk zijn voor mensen die voldoening halen uit het verbeteren en ontwikkelen van vaardigheden."},
-        {"stelling": "Ik vind het boeiend om sociale dynamieken en groepsprocessen te observeren en te begrijpen hoe mensen binnen een groep functioneren.", "uitleg": "Het observeren en begrijpen van sociale dynamieken kan stimulerend zijn voor mensen die geïnteresseerd zijn in sociale interacties en groepsgedrag."},
-        {"stelling": "Ik krijg veel voldoening uit het oplossen van complexe problemen door middel van creatief en innovatief denken.", "uitleg": "Creatief en innovatief denken om complexe problemen op te lossen kan een belangrijke bron van voldoening zijn voor probleemoplossers."},
-        {"stelling": "Ik voel me sterk gemotiveerd om bij te dragen aan projecten die een tastbare verbetering teweegbrengen in de levens van individuen of gemeenschappen.", "uitleg": "Bijdragen aan tastbare verbeteringen in levens kan zeer motiverend zijn voor mensen die waarde hechten aan impact en concrete resultaten."},
-        {"stelling": "Ik vind het belangrijk om mijn eigen unieke visie en ideeën uit te drukken, zelfs als ze afwijken van de gangbare normen.", "uitleg": "Unieke expressie en het volgen van je eigen visie kunnen belangrijk zijn voor mensen die waarde hechten aan individualiteit en creativiteit."},
-        {"stelling": "Ik voel me sterk gemotiveerd om betrokken te zijn bij activiteiten die een directe persoonlijke of professionele uitdaging bieden.", "uitleg": "Persoonlijke of professionele uitdagingen kunnen motiverend zijn voor mensen die van uitdagende situaties houden."},
-        {"stelling": "Ik ben gepassioneerd over het ontwikkelen van nieuwe concepten en ideeën die bestaande methoden of producten verbeteren.", "uitleg": "Het ontwikkelen van nieuwe concepten en verbeteren van bestaande methoden kan aantrekkelijk zijn voor mensen met een passie voor innovatie."},
-        {"stelling": "Ik haal veel voldoening uit het werken aan projecten die een persoonlijke betekenis voor mij hebben, zelfs als ze weinig extern erkend worden.", "uitleg": "Persoonlijke betekenis en voldoening uit projecten, ongeacht externe erkenning, kunnen belangrijk zijn voor mensen die waarde hechten aan persoonlijke betrokkenheid."},
-        {"stelling": "Ik voel me aangetrokken tot het creëren van en deelnemen aan netwerken en gemeenschappen die een gedeelde passie of interesse hebben.", "uitleg": "Deel uitmaken van netwerken en gemeenschappen met gedeelde interesses kan waardevol zijn voor mensen die van sociale en professionele netwerken houden."},
-        {"stelling": "Ik voel me sterk aangetrokken tot het uitvoeren van taken die een zekere mate van risico of onzekerheid met zich meebrengen, omdat ze spannender en uitdagender zijn.", "uitleg": "Risico en onzekerheid kunnen de aantrekkingskracht van taken vergroten voor mensen die van spannende en uitdagende situaties houden."},
-        {"stelling": "Ik vind het waardevol om betrokken te zijn bij projecten die bijdragen aan de vooruitgang en ontwikkeling van een specifieke industrie of vakgebied.", "uitleg": "Bijdragen aan de vooruitgang van een industrie of vakgebied kan motiverend zijn voor mensen die zich willen inzetten voor sectorale ontwikkeling."},
-        {"stelling": "Ik haal veel voldoening uit het ontwikkelen en uitvoeren van strategieën die gericht zijn op het behalen van langetermijndoelen.", "uitleg": "Langetermijnstrategieën en doelen kunnen bevredigend zijn voor mensen die houden van strategisch denken en planning."},
-        {"stelling": "Ik voel me aangetrokken tot het ontwikkelen van en experimenteren met nieuwe methoden of benaderingen om bestaande processen te verbeteren.", "uitleg": "Het ontwikkelen en testen van nieuwe methoden kan stimulerend zijn voor mensen die van innovatie en procesverbetering houden."},
-        {"stelling": "Ik voel me gemotiveerd door de mogelijkheid om anderen te onderwijzen of te coachen en hen te helpen groeien in hun vaardigheden en kennis.", "uitleg": "Onderwijs en coaching kunnen belangrijk zijn voor mensen die voldoening halen uit het helpen van anderen bij hun ontwikkeling."},
-        {"stelling": "Ik voel me aangetrokken tot het werken met complexe data en statistieken om trends en patronen te ontdekken.", "uitleg": "Werken met data en statistieken kan aantrekkelijk zijn voor mensen die geïnteresseerd zijn in analyse en het ontdekken van trends."},
-        {"stelling": "Ik vind het belangrijk om op de hoogte te blijven van de nieuwste trends en ontwikkelingen in mijn vakgebied om mijn kennis en vaardigheden te blijven verbeteren.", "uitleg": "Het bijhouden van trends en ontwikkelingen kan cruciaal zijn voor mensen die continu hun kennis willen verbeteren en relevant willen blijven."},
-        {"stelling": "Ik voel me sterk gemotiveerd door de mogelijkheid om een impact te maken op de levens van mensen door middel van mijn werk, zelfs als dit veel persoonlijke inzet vereist.", "uitleg": "Impact maken op de levens van anderen, zelfs met veel persoonlijke inzet, kan een sterke motivator zijn voor mensen die waarde hechten aan significante resultaten."}
-    ]    
-    ,
-    "custom_prompt": "Ik ga je hieronder een lijst geven van stellingen met een uitleg en een score. De bedoeling is dat je deze informatie bekijkt en analyseert om een persoon zijn passie te onderzoeken. Dus onderzoeken wat hij echt graag doet. Je zal een analyse geven en concreet zeggen waar die persoon best zijn dagen mee vult. Heel concreet. De bedoeling is echt om te achterhalen wat die persoon zijn passie écht is. De score bij elke stelling is als volgt: Elke stelling kan beantwoord worden met een mate waarin de persoon het eens of oneens is met de stelling. ik wil dat je zeer gericht en diep gaat."
-  }
+    "default_choice": "Neutral",
+    "statements": [
+        {
+            "statement": "I gain energy from working in a team where I can exchange ideas and collaborate on projects.",
+            "explanation": "Working in a team can be motivating and stimulate new ideas."
+        },
+        {
+            "statement": "I feel most fulfilled when I create something tangible, such as art, crafts, or a physical product.",
+            "explanation": "Some people find fulfillment in creating tangible products that they can see and touch."
+        },
+        {
+            "statement": "I have a strong need to help others and feel fulfilled when I can contribute to their well-being.",
+            "explanation": "Helping and contributing to the well-being of others can be a great source of satisfaction."
+        },
+        {
+            "statement": "I am fascinated by technology and love experimenting with new tools, software, or devices.",
+            "explanation": "Technology and innovation can be an important source of motivation and enjoyment for some."
+        },
+        {
+            "statement": "I enjoy analyzing numbers and data to discover patterns and make informed decisions.",
+            "explanation": "Data analysis and discovering patterns can be stimulating for those who enjoy numerical thinking."
+        },
+        {
+            "statement": "I am driven by the desire to explore new places, travel, and experience different cultures.",
+            "explanation": "Traveling and discovering new cultures can be important for those curious about the world."
+        },
+        {
+            "statement": "I find it important to share my ideas and beliefs and inspire others through my vision or stories.",
+            "explanation": "Sharing personal ideas and inspiring others can be a significant motivator for some."
+        },
+        {
+            "statement": "I am attracted to activities that require physical challenge and endurance, such as sports or long walks.",
+            "explanation": "Physical challenges and endurance can be satisfying for those who enjoy active pursuits."
+        },
+        {
+            "statement": "I am attracted to the idea of starting my own business or project and building something from the ground up.",
+            "explanation": "Entrepreneurship and building something from scratch can be motivating for those passionate about innovation and initiative."
+        },
+        {
+            "statement": "I derive a lot of satisfaction from planning and organizing events or activities, from the smallest details to the bigger picture.",
+            "explanation": "Organizing and planning events can be fulfilling due to the complexity and impact of a well-organized activity."
+        },
+        {
+            "statement": "I feel drawn to subjects like philosophy, psychology, or other disciplines that focus on understanding human nature.",
+            "explanation": "Studying and reflecting on human nature can be appealing to those interested in deep, intellectual exploration."
+        },
+        {
+            "statement": "I am attracted to the arts, such as music, painting, or theater, and can lose myself in creative expression.",
+            "explanation": "Creative expression and art can play a significant role in the lives of those who feel artistically inclined."
+        },
+        {
+            "statement": "I enjoy structuring and documenting my thoughts and ideas, such as through journaling or blogging.",
+            "explanation": "Structuring and documenting thoughts can be satisfying for those who enjoy organization and written expression."
+        },
+        {
+            "statement": "I feel a strong connection to history and find it fascinating to learn about different eras and their impact on today's world.",
+            "explanation": "History and understanding historical influences can be interesting for those fascinated by the past."
+        },
+        {
+            "statement": "I derive a lot of satisfaction from developing skills through ongoing training and practice, even if the process is long and demanding.",
+            "explanation": "Long-term training and practice can be important for those who find satisfaction in improving and developing skills."
+        },
+        {
+            "statement": "I find it intriguing to observe social dynamics and group processes and understand how people function within a group.",
+            "explanation": "Observing and understanding social dynamics can be stimulating for those interested in social interactions and group behavior."
+        },
+        {
+            "statement": "I gain a lot of satisfaction from solving complex problems through creative and innovative thinking.",
+            "explanation": "Creative and innovative thinking to solve complex problems can be a major source of satisfaction for problem-solvers."
+        },
+        {
+            "statement": "I am strongly motivated by the opportunity to contribute to projects that make a tangible improvement in the lives of individuals or communities.",
+            "explanation": "Contributing to tangible improvements in lives can be highly motivating for those who value impact and concrete results."
+        },
+        {
+            "statement": "I find it important to express my unique vision and ideas, even if they deviate from conventional norms.",
+            "explanation": "Unique expression and following your own vision can be important for those who value individuality and creativity."
+        },
+        {
+            "statement": "I feel strongly motivated to be involved in activities that offer a direct personal or professional challenge.",
+            "explanation": "Personal or professional challenges can be motivating for those who enjoy challenging situations."
+        },
+        {
+            "statement": "I am passionate about developing new concepts and ideas that improve existing methods or products.",
+            "explanation": "Developing new concepts and improving existing methods can be appealing to those with a passion for innovation."
+        },
+        {
+            "statement": "I derive a lot of satisfaction from working on projects that have personal significance to me, even if they receive little external recognition.",
+            "explanation": "Personal significance and satisfaction from projects, regardless of external recognition, can be important for those who value personal involvement."
+        },
+        {
+            "statement": "I am drawn to creating and participating in networks and communities that share a common passion or interest.",
+            "explanation": "Being part of networks and communities with shared interests can be valuable for those who enjoy social and professional networking."
+        },
+        {
+            "statement": "I am strongly attracted to tasks that involve a certain degree of risk or uncertainty, as they are more exciting and challenging.",
+            "explanation": "Risk and uncertainty can enhance the appeal of tasks for those who enjoy exciting and challenging situations."
+        },
+        {
+            "statement": "I find it valuable to be involved in projects that contribute to the advancement and development of a specific industry or field.",
+            "explanation": "Contributing to the advancement of an industry or field can be motivating for those who want to engage in sectoral development."
+        },
+        {
+            "statement": "I gain a lot of satisfaction from developing and implementing strategies aimed at achieving long-term goals.",
+            "explanation": "Long-term strategies and goals can be fulfilling for those who enjoy strategic thinking and planning."
+        },
+        {
+            "statement": "I am drawn to developing and experimenting with new methods or approaches to improve existing processes.",
+            "explanation": "Developing and testing new methods can be stimulating for those who enjoy innovation and process improvement."
+        },
+        {
+            "statement": "I am motivated by the opportunity to teach or coach others and help them grow in their skills and knowledge.",
+            "explanation": "Teaching and coaching can be important for those who find fulfillment in helping others with their development."
+        },
+        {
+            "statement": "I am attracted to working with complex data and statistics to uncover trends and patterns.",
+            "explanation": "Working with data and statistics can be appealing to those interested in analysis and discovering trends."
+        },
+        {
+            "statement": "I find it important to stay updated on the latest trends and developments in my field to continue improving my knowledge and skills.",
+            "explanation": "Keeping up with trends and developments can be crucial for those who want to continuously improve their knowledge and remain relevant."
+        },
+        {
+            "statement": "I am strongly motivated by the opportunity to make an impact on people's lives through my work, even if it requires a lot of personal commitment.",
+            "explanation": "Making an impact on others' lives, even with significant personal commitment, can be a strong motivator for those who value significant results."
+        }
+    ],
+    "custom_prompt": "I will give you a list of statements with explanations and a scoring system. The goal is to review and analyze this information to explore a person's passion. Essentially, determine what they truly enjoy doing. You will provide an analysis and concretely suggest what the person should focus on in their daily activities. The aim is to uncover what the person's true passion is. Each statement can be answered with a degree of agreement or disagreement. I want you to be very focused and in-depth."
+}
